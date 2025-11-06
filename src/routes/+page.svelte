@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div
-	class="no-scrollbar relative mx-auto flex h-screen w-[96%] items-center justify-center pb-56 pt-4 md:w-2/5"
+	class="no-scrollbar relative mx-auto flex h-screen w-[96%] items-center justify-center pt-4 md:w-2/5"
 >
 	<div class="flex flex-col gap-y-2">
 		<div class="flex items-center justify-between">
