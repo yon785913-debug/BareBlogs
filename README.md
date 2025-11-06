@@ -17,6 +17,8 @@ This project is one of the quickest and barebones way of configuring and deployi
 
 * Most of the configurations are self explanatory but the less obvious one is the `newBlogThreshold` key which represents the maximum number of days to consider a blog post as new. It can be set to any positive integer. So the default `10` means any blog post written within the last 10 days is considered as new and the `NEW` tag and the emerald highlight will be applied to the new blog posts.
 
+6. To replace the default logo at the header, navigate to the `src\lib\assets\logo` directory and replace the `DagmawiBabiLogo.png` file with your own light-mode logo image and `DagmawiBabiLogoWhite.png` file with your own dark-mode logo image.
+
 ### With configurations out of the way let's get started writing your first blog post.
 
 The file hierarchy for your blogs is as follows:
@@ -36,9 +38,9 @@ BareBlogs
 ```
 * The `blogs` folder is where all your writings as markdown will goto. While `blog-images` is where you place and organize your images and GIFs referenced in your blogs at. 
 
-6. Start by creating a new markdown file in the `src\blogs` directory. Name it something like `My-First-Blog.md`. Remember to use `-` instead of spaces when naming your files as it will make the URLs more readable.  
+7. Start by creating a new markdown file in the `src\blogs` directory. Name it something like `My-First-Blog.md`. Remember to use `-` instead of spaces when naming your files as it will make the URLs more readable.  
 
-7. Open the `My-First-Blog.md` file in your IDE and add the following metadata at the top of the file:
+8. Open the `My-First-Blog.md` file in your IDE and add the following metadata at the top of the file:
 
 ```
 ---
@@ -48,17 +50,17 @@ category: "Journal"
 ---
 ```
 
-8. Write your blog post content below the metadata. You can use Markdown syntax to format your text, add images, links, tables, code blocks, headings, blockquotes, lists and more.
+9. Write your blog post content below the metadata. You can use Markdown syntax to format your text, add images, links, tables, code blocks, headings, blockquotes, lists and more.
 
-9. Copy an image to `blog-images/MyFirstBlog` as `header.png` and then reference it in your blog post using the following syntax:
+10. Copy an image to `blog-images/MyFirstBlog` as `header.png` and then reference it in your blog post using the following syntax:
 
 ```
 ![Header Image](/blog-images/MyFirstBlog/header.png)
 ```
 
-9. Save the file and refresh your browser to see your new blog post listed in the feed, click on it to read it. 
+11. Save the file and refresh your browser to see your new blog post listed in the feed, click on it to read it. 
 
-10. That's it! You can continue and use [Vercel](https://vercel.com) to deploy your blog site. Have fun!
+12. That's it! You can continue and use [Vercel](https://vercel.com) to deploy your blog site. Have fun!
 
 ### Syntaxes
 
