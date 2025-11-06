@@ -13,7 +13,7 @@ This project is one of the quickest and barebones way of configuring and deployi
 4. Start by navigating to the `src\lib` directory and open the `config.json` file in your IDE.
 5. Edit the `config.json` file with your personal info.
 
-![image.png](/blog-images/GettingStarted/config-file.png)
+![config-file](https://github.com/dagmawibabi/BareBlogs/blob/main/static/blog-images/GettingStarted/config-file.png)
 
 * Most of the configurations are self explanatory but the less obvious one is the `newBlogThreshold` key which represents the maximum number of days to consider a blog post as new. It can be set to any positive integer. So the default `10` means any blog post written within the last 10 days is considered as new and the `NEW` tag and the emerald highlight will be applied to the new blog posts.
 
